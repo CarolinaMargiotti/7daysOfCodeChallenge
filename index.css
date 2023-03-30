@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(#000000, #ffffff00, #000000c9),
+		url("assets/img/moviebanner.webp");
+	background-size: cover;
+	background-position: top;
+}
+
+.header-recommendation {
+	width: 25vw;
+	padding-top: 10%;
+	padding-left: 5%;
+	color: white;
+	vertical-align: bottom;
+}
+
+.header-recommendation-type {
+	align-items: center;
+	letter-spacing: 5px;
+	color: lightgray;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.header-recommendation-type-item {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.8rem;
+}
+
+.header-recommendation-type-item--text {
+	margin-left: -0.5rem;
+}
+
+.header-recommendation-logo {
+	width: 100%;
+}
+
+.header-recommendation-description {
+	margin-top: 0.4rem;
+	text-shadow: 1px 1px 2px black;
+	font-weight: 500;
+}
+
+.header-recommendation-buttons {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-recommendation-button {
+	border: none;
+	border-radius: 2px;
+	height: 2.4rem;
+}
+
+.header-recommendation-button-text {
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+.header-recommendation-button p,
+.header-recommendation-button img {
+	display: inline;
+	vertical-align: middle;
+}
+
+.header-recommendation-buttons--watch {
+	background-color: white;
+	width: 35%;
+	color: black;
+}
+
+.header-recommendation-buttons--more-info {
+	background-color: rgba(255, 255, 255, 0.336);
+	width: 55%;
+	color: white;
+}
+
+.header-recommendation-buttons--more-info img {
+	filter: invert();
+}
