@@ -5,6 +5,7 @@
 
 body {
 	font-family: "Lato", sans-serif;
+	color: white;
 }
 
 header {
@@ -16,12 +17,54 @@ header {
 	background-position: top;
 }
 
+navbar {
+	padding-top: 2rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	display: flex;
+	line-height: 1.5rem;
+	justify-content: space-between;
+}
+
+.navbar-profile-item {
+	margin-left: 0.5rem;
+}
+
+.navbar-profile-item--icons {
+	filter: invert();
+	width: 1rem;
+}
+
+.navbar-profile-item--dropdown {
+	width: 0.7rem;
+	margin-left: 0.1rem;
+}
+
+.navbar-profile-item-pic {
+	width: 1.5rem;
+}
+
+nav {
+	display: inline;
+	vertical-align: bottom;
+}
+
+.navbar-menus {
+	height: 40%;
+	width: 45%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar-menus-logo {
+	display: inline-block;
+	margin-right: 5%;
+}
+
 .header-recommendation {
 	width: 25vw;
 	padding-top: 10%;
 	padding-left: 5%;
-	color: white;
-	vertical-align: bottom;
 }
 
 .header-recommendation-type {
