@@ -150,6 +150,7 @@ main {
 	padding-top: 4rem;
 	padding-left: 4rem;
 	padding-bottom: 5rem;
+	overflow-x: hidden;
 }
 
 .my-list-title {
@@ -161,11 +162,18 @@ main {
 	display: flex;
 	justify-content: space-between;
 	gap: 1rem;
-	overflow: hidden;
 }
 
 .movie-tray-item {
 	width: 14rem;
+	transition: all 0.5s ease-in-out;
+}
+
+.movie-tray-item:hover {
+	border-radius: 3px;
+	transform: scale(1.2);
+	margin-left: 2rem;
+	margin-right: 2rem;
 }
 
 .movie-tray-item--next {
