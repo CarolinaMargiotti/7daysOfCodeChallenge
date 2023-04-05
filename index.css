@@ -150,11 +150,12 @@ main {
 	padding-top: 4rem;
 	padding-left: 4rem;
 	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 .trending {
 	background-color: #000;
-	padding-top: 1rem;
+	padding-top: 3rem;
 	padding-left: 4rem;
 	padding-right: 4rem;
 	padding-bottom: 5rem;
@@ -188,7 +189,7 @@ main {
 	margin-right: 2rem;
 }
 
-.movie-tray-item-img:nth-last-of-type() {
+.movie-tray-item-img--next {
 	filter: brightness(20%);
 }
 
