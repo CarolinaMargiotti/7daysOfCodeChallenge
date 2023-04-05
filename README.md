@@ -25,3 +25,7 @@ Code the arrows for previous and next shows.
 #### day 6
 
 Code the footer.
+
+#### day 7
+
+Push to github.
