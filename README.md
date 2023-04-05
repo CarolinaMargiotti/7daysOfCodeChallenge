@@ -21,3 +21,7 @@ Code the scaling hover effect.
 #### day 5
 
 Code the arrows for previous and next shows.
+
+#### day 6
+
+Code the footer.
